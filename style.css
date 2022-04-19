@@ -1,0 +1,134 @@
+@font-face {
+    font-family: sriracha;
+    src: url(fonts/Sriracha-Regular.ttf);
+}
+
+@font-face {
+    font-family: passionone;
+    src: url(fonts/PassionOne-Regular.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-size: 1em;
+}
+
+:root {
+    --font1: 'passionone', Helvetica, sans-serif;
+    --font2: 'sriracha', Helvetica, sans-serif;
+    --cortr: rgba(0, 0, 0, 0.399);
+}
+
+body {
+    font-family: var(--font2);
+    min-height: 100vh;
+    text-align: justify;
+    line-height: 5.2vw;
+
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    position: relative;
+    text-align: center;
+    
+}
+
+header > h1 {
+    font-family: var(--font1);
+    font-size: 10vw;
+    font-weight: 300;
+    font-variant: small-caps;
+    margin-top: 40px;
+}
+
+header > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: ;
+    font-weight: 100;
+    margin-top: 30px;
+}
+
+.white {
+    padding: 30px 50px;
+    font-family: var(--font2);
+    font-size: 3.2vw;
+}
+
+.white#pag1 {
+    font-family: var(--font2);
+    font-size: 3.2vw;
+    padding: 80px 40px;
+}
+
+white > p {
+    padding: 20px;
+}
+
+.picture {
+    padding: 30px 50px;
+    font-family: var(--font2);
+    font-size: 3.2vw;
+}
+
+.picture#pag2 {
+    background-image: url(imagens/background001.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 15px 15px 15px black;
+    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
+    padding: 80px 40px;
+}
+
+#pag2 > p {
+    background-color: var(--cortr);
+    color: white;
+    height: 36vw;
+    max-width: 40vw;
+    padding: 20px;
+}
+
+.picture#pag4 {
+    background-image: url(imagens/background002.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    box-shadow: 15px 15px 15px black;
+    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
+    padding: 80px 40px;
+}
+
+#pag4 > p {
+    background-color: var(--cortr);
+    color: white;
+    height: 36vw;
+    max-width: 40vw;
+}
+
+.linkref {
+    font-family: var(--font1);
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.linkref:hover {
+    text-decoration: underline;
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    max-height: 35px;
+    line-height: 30px;
+}
