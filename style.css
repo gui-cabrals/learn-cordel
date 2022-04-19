@@ -24,8 +24,6 @@ body {
     font-family: var(--font2);
     min-height: 100vh;
     text-align: justify;
-    line-height: 5.2vw;
-
 }
 
 header {
@@ -52,63 +50,47 @@ header > h3 {
     margin-top: 30px;
 }
 
-.white {
-    padding: 30px 50px;
-    font-family: var(--font2);
-    font-size: 3.2vw;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
 }
 
-.white#pag1 {
+.white {
     font-family: var(--font2);
-    font-size: 3.2vw;
-    padding: 80px 40px;
+    
 }
+
 
 white > p {
     padding: 20px;
 }
 
 .picture {
-    padding: 30px 50px;
     font-family: var(--font2);
-    font-size: 3.2vw;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    box-shadow: inset 6px 6px 15px 0px rgba(0, 0, 0, 0.5);
+}
+
+.picture > p {
+    background-color: var(--cortr);
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
 }
 
 .picture#pag2 {
     background-image: url(imagens/background001.jpg);
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    box-shadow: 15px 15px 15px black;
-    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
-    padding: 80px 40px;
-}
-
-#pag2 > p {
-    background-color: var(--cortr);
-    color: white;
-    height: 36vw;
-    max-width: 40vw;
-    padding: 20px;
 }
 
 .picture#pag4 {
     background-image: url(imagens/background002.jpg);
-    background-position: top center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;    
-    box-shadow: 15px 15px 15px black;
-    box-shadow: inset 8px 15px 15px rgba(0, 0, 0, 0.318);
-    padding: 80px 40px;
-}
-
-#pag4 > p {
-    background-color: var(--cortr);
-    color: white;
-    height: 36vw;
-    max-width: 40vw;
 }
 
 .linkref {
